@@ -54,7 +54,13 @@ For ATAC-seq, we recommend **paired-end sequencing**, for several reasons.
 
 * PCR duplicates are identified more accurately.  As noted above, PCR duplicates are artifacts of the procedure, and they should be removed as part of the analysis pipeline (see below for more details).  However, computational programs that remove PCR duplicates (e.g. Picard's [MarkDuplicates](http://broadinstitute.github.io/picard/command-line-overview.html#MarkDuplicates)) typically identify duplicates based on comparing ends of aligned reads.  With single-end reads, there is only one position to compare, and so any reads whose 5' ends match will be considered duplicates.  Thus, many false positives may result, and perfectly good reads will be removed from further analysis.  On the other hand, after paired-end sequencing, both ends of the original DNA fragments are defined.  To be declared a duplicate, both ends of one fragment would need to match both ends of another fragment, which is far less likely to occur by chance.  Therefore, paired-end sequencing leads to fewer false positives.
 
+## Detailed protocol for ATQC-Seq library 
 
+ in Plant  https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5693289/pdf/nihms917965.pdf
+ 
+ ATAC-Seq Adapter sequences : https://media.nature.com/original/nature-assets/nmeth/journal/v10/n12/extref/nmeth.2688-S1.pdf
+ 
+ 
 ## Compute access / Odyssey <a name="odyssey"></a>
 
 This document assumes that you have an account on the [Odyssey computer cluster](https://www.rc.fas.harvard.edu/training/introduction-to-odyssey-online/) of Harvard University.  An account can be requested [here](https://portal.rc.fas.harvard.edu/request/account/new).
@@ -382,4 +388,6 @@ Montefiori L, Hernandez L, Zhang Z, Gilad Y, Ober C, Crawford G, Nobrega M, Jo S
 Quinlan AR.  BEDTools: The Swiss-Army Tool for Genome Feature Analysis.  Curr Protoc Bioinformatics. 2014 Sep 8;47:11.12.1-34.
 
 Yu G, Wang LG, He QY.  ChIPseeker: an R/Bioconductor package for ChIP peak annotation, comparison and visualization.  Bioinformatics. 2015 Jul 15;31(14):2382-3.
+
+
 Encode project : https://www.encodeproject.org/atac-seq/
