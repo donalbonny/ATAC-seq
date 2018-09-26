@@ -9,6 +9,8 @@
 [Next steps](#next)<br>
 [References](#references)<br>
 
+## Follow the protocol from Harvard Informatics and redesigned for our own research in light signaling in Arabidopsis 
+
 
 ## ATAC-seq overview <a name="overview"></a>
 
