@@ -57,13 +57,13 @@ For ATAC-seq, we recommend **paired-end sequencing**, for several reasons.
 ## Detailed protocol for ATQC-Seq library 
 
 
-- Plant  https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5693289/pdf/nihms917965.pdf
+- [ATAC-Seq preparation from Arabidopsis](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5693289/pdf/nihms917965.pdf)
  
-- ATAC-Seq Adapter sequences : https://media.nature.com/original/nature-assets/nmeth/journal/v10/n12/extref/nmeth.2688-S1.pdf
+- [ATAC-Seq Adapter sequences](https://media.nature.com/original/nature-assets/nmeth/journal/v10/n12/extref/nmeth.2688-S1.pdf)
  
-- Comparison of ATAC-seq and DNAse-Seq https://epigeneticsandchromatin.biomedcentral.com/track/pdf/10.1186/1756-8935-7-33
+- [Comparison of ATAC-seq and DNAse-Seq](https://epigeneticsandchromatin.biomedcentral.com/track/pdf/10.1186/1756-8935-7-33)
  
-- A nice paper on DNAase-Seq in Light and heat shock: Mapping and Dynamics of Regulatory DNA and Transcription Factor Networks in A. thaliana https://ac.els-cdn.com/S2211124714006822/1-s2.0-S2211124714006822-main.pdf?_tid=caff6c83-68d9-4efb-a48d-a567d8a77d91&acdnat=1538069886_a31e7b1cd875861878e7d17c0bc863b1
+- A nice paper on DNAase-Seq in Light and Heat shock: [Mapping and Dynamics of Regulatory DNA and Transcription Factor Networks in A. thaliana](https://ac.els-cdn.com/S2211124714006822/1-s2.0-S2211124714006822-main.pdf?_tid=caff6c83-68d9-4efb-a48d-a567d8a77d91&acdnat=1538069886_a31e7b1cd875861878e7d17c0bc863b1)
  
 ## Compute access / Odyssey <a name="odyssey"></a>
 
