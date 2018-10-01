@@ -395,3 +395,10 @@ Yu G, Wang LG, He QY.  ChIPseeker: an R/Bioconductor package for ChIP peak annot
 
 
 Encode project : https://www.encodeproject.org/atac-seq/
+
+
+Other Data analysis references:
+
+https://bioinformatics-workbook.readthedocs.io/en/latest/dataAnalysis/ATAC-seq/ATAC_tutorial/
+
+
